@@ -1,0 +1,120 @@
+.navbar{
+  clear: both;
+  float: left;
+  margin: 0;
+  padding: 0;
+  border-bottom:0px solid;
+  width:100%;
+  font-size:90%;
+  z-index:1000;
+  position: relative;
+  font-family: Tahoma, Geneva, sans-serif;
+  background-color:#004B8D;
+}
+.navbar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+  position: relative;
+  right: 50%;
+}
+.navbar ul li{
+    margin:0 0 1px;
+  	padding:0;
+  	float:left;
+  	position:relative;
+  	left:50%;
+  	top:1px;
+}
+.navbar ul li a{
+  display:block;
+	margin:0;
+  background-color: #004B8D;
+	padding:.6em .5em .4em;
+	font-size:1em;
+	line-height:1em;
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+	border-bottom:1px solid #98B4D4;
+  border-radius: 3px;
+}
+.navbar ul li a:hover {
+  background:#36f;
+	color:#fff;
+	/*border-bottom:1px solid #03f;*/
+}
+.navbar ul li:hover a,
+.navbar ul li.hover a {
+	background:	#F0F0F0;
+	color:black;
+	/*border-bottom:1px solid #03f;*/
+}
+.navbar ul ul {
+	display:none;
+	position:absolute;
+	top:2em;
+	left:0;
+	float:left;
+	right:auto;
+	width:10em;
+}
+.navbar ul ul li {
+	left:auto;
+	margin:0;
+	clear:left;
+	float:left;
+	width:100%;
+}
+.navbar ul ul li a,
+.navbar ul li.active li a,
+.navbar ul li:hover ul li a,
+.navbar ul li.hover ul li a {
+	font-size:.8em;
+	font-weight:normal;
+	background:#eee;
+	color:#444;
+	line-height:1.4em;
+	border-bottom:1px solid #ddd;
+	float:left;
+	width:100%;
+}
+.navbar ul ul li a:hover,
+.navbar ul li.active ul li a:hover,
+.navbar ul li:hover ul li a:hover,
+.navbar ul li.hover ul li a:hover {
+	background:#A9A9A9;
+	color:#fff;
+	float:left;
+}
+.navbar ul ul.last {
+	left:auto;
+	right:0;
+}
+.navbar ul ul.last li {
+	float:right;
+	position:relative;
+	right:.8em;
+}
+.navbar ul li:hover ul,
+.navbar ul li.hover ul {
+	display:block;
+}
+article{
+  margin-left: 160px;
+  margin-right: 300px;
+  margin-top: 50px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+.tradingview-widget-container{
+  float: right;
+}
+footer{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
